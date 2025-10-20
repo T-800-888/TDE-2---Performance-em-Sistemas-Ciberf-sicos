@@ -1,0 +1,21 @@
+def mru(seq: list, quad: int):
+    ar = []   # memória
+    pgf = 0   # contador de faltas
+
+    for i in range(len(seq)):
+        if seq[i] in ar:            # se a página já tá lá
+            ar.remove(seq[i])       # tira ela
+            ar.append(seq[i])       # põe no fim (marcando que foi usada)
+        else:                       # se a página não tá
+            if len(ar) < quad:      # ainda tem espaço?
+                ar.append(seq[i])   # adiciona
+            else:                   # se não tem espaço
+                ar.pop()            # tira a mais recente (última da lista)
+                ar.append(seq[i])   # coloca a nova
+                pgf += 1            # conta a falta
+    return ar, pgf + quad
+
+
+print(mru([4,3,25,8,19,6,25,8,16,35,45,22,8,3,16,25,7], 8))
+print(mru([4,5,7,9,46,45,14,4,64,7,65,2,1,6,8,45,14,11], 8))
+print(mru([4,6,7,8,1,6,10,15,16,4,2,1,4,6,12,15,16,11], 8))
