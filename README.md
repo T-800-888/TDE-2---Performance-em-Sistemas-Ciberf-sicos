@@ -26,4 +26,9 @@ qual quadro na memória possuirá a página 11?
 
 ### Resultados
 Tudo foi respondido e explicado no vídeo <br>
-Link do vídeo: **[MAPEAMENTO MEMÓRIA CACHE](https://youtu.be/sTjJDHhPAME)**
+Link do vídeo: **[MAPEAMENTO MEMÓRIA CACHE](https://youtu.be/d7ZrditEWv8)**
+
+
+README.md do repositório versão com comentários: 
+**https://github.com/T-800-888/TDE2_PerformanceSistCiber_Comentado/blob/1016da0e35f71e951c4a795182ce166a89f9dacc/README.md**
+
