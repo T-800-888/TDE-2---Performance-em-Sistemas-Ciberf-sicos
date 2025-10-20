@@ -1,7 +1,7 @@
 # TDE 2 Performance em Sistemas Ciberfísicos
 ## Membros do grupo:
 - **Letícia Miniuk Rosa Pereira**
-- **Rayssa Gaievica Grafetti**
+- **Rayssa Gaievicz Grafetti**
 - **Victor Willian Rodrigues Bittencourt**
 ## Descrição:
 A atividade consiste na realização dos seguintes, em um vídeo de até 10 minutos:
